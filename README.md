@@ -1,1 +1,1 @@
-# Hill-Climb-Race-countrol-using-Mediapipe
+# Hill-Climb Racing countrol using Mediapipe library in python
