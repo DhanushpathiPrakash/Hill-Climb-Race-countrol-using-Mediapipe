@@ -46,12 +46,7 @@ with mp_hand.Hands(min_detection_confidence=0.5,
                     fingers.append(0)
             total=fingers.count(1)
             print(total)
-            current_key_pressed = set()              
-    
-        #    if lmList[8][2] < lmList[6][2]:
-        #       print("open")
-        #   else:
-        #      print("Close")
+
         cv2.imshow("Frame", image)
         k=cv2.waitKey(1)
         if k==ord('q'):
